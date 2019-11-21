@@ -1,0 +1,54 @@
+
+dingl@DESKTOP-RCVVS5I MINGW64 /e (master)
+$ git config --global user.name "sunnydinglei0801"
+
+dingl@DESKTOP-RCVVS5I MINGW64 /e (master)
+$ git config --global user.email "dingleilei0801@163.com"
+
+dingl@DESKTOP-RCVVS5I MINGW64 /e (master)
+$ mkdir test
+
+dingl@DESKTOP-RCVVS5I MINGW64 /e (master)
+$ cd test
+
+dingl@DESKTOP-RCVVS5I MINGW64 /e/test (master)
+$ git init
+Initialized empty Git repository in E:/test/.git/
+
+dingl@DESKTOP-RCVVS5I MINGW64 /e/test (master)
+$ git clone https://github.com/sunnydinglei0801/computerdll.git
+Cloning into 'computerdll'...
+remote: Enumerating objects: 13, done.
+remote: Counting objects: 100% (13/13), done.
+remote: Compressing objects: 100% (9/9), done.
+remote: Total 13 (delta 2), reused 4 (delta 1), pack-reused 0
+Unpacking objects: 100% (13/13), done.
+
+dingl@DESKTOP-RCVVS5I MINGW64 /e/test (master)
+$ cd computerdll
+
+dingl@DESKTOP-RCVVS5I MINGW64 /e/test/computerdll (master)
+$ git add 222.txt
+
+dingl@DESKTOP-RCVVS5I MINGW64 /e/test/computerdll (master)
+$ git commit -m "222.txt"
+[master f58dc28] 222.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 222.txt
+
+dingl@DESKTOP-RCVVS5I MINGW64 /e/test/computerdll (master)
+$ git push
+Counting objects: 2, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 225 bytes | 225.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/sunnydinglei0801/computerdll.git
+   de8b235..f58dc28  master -> master
+
+dingl@DESKTOP-RCVVS5I MINGW64 /e/test/computerdll (master)
+$ ^C
+
+dingl@DESKTOP-RCVVS5I MINGW64 /e/test/computerdll (master)
+$
